@@ -29,6 +29,26 @@
 - Do not add generated files, build output, downloaded dependencies, or large
   binary artifacts to Git.
 
+## Hands-On Lab Policy
+
+- For every lab exercise, show the complete commands used so the user can
+  reproduce the work manually. Include host setup, build, VM launch, commands
+  run inside the guest, verification, and cleanup commands when applicable.
+- Present commands in execution order and identify the environment for each
+  command, such as the macOS host, build VM, or test VM. Do not replace
+  essential commands with prose, ellipses, shell-history references, or
+  unstated prior setup.
+- Make command examples copy-pasteable. Define paths and other values before
+  using them, and clearly mark any value the user must replace.
+- Before a command that partitions, formats, overwrites, deletes, or otherwise
+  mutates persistent data, identify the exact target and explain the effect.
+  Keep destructive lab operations confined to explicitly disposable devices
+  or files.
+- After each command group, state the expected observable result and include
+  commands that verify it. If Codex used a different diagnostic command while
+  troubleshooting, show that command and its relevant result as part of the
+  lab record.
+
 ## Platform Note
 
 This checkout may be used on a case-insensitive filesystem. The Linux tree has
